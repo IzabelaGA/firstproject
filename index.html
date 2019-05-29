@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izabela Sosnowska - Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class=" top clearfix">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">O mnie</a></li>
+            <li><a href="#galery">Galeria</a></li>
+            <li><a href="#motto">Motto</a></li>
+            <li><a href="#freeTime">Lubię</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="wrap" id="home">
+
+            <div class="welcome">
+
+                <p>Witaj!</p>
+                <h1><span>nazywam się</span> Izabela Sosnowska</h1>
+                <h2><span>jestem początkującym</span> Frontend Developerem</h2>
+                <button> <a href="#about">Zobacz moje portfolio</a></button>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="features clearfix" id="about">
+        <h1>Tworzę strony</h1>
+
+        <div class="feature">
+            <img src="images/services1.png" alt="loga html js i css">
+            <h2>Nowoczesne i zgodne z aktualnymi standardami</h2>
+            <p class="description">W skrócie można powiedzieć, że strona internetowa składa sie z warstw.
+                <span>HTML</span> tworzy jej strukturę, <span>CSS</span> nadaje wyglądu, natomiast dzięki użyciu
+                <span>JavaScript</span> strona staje się interaktywna. <span>Właściwe użycie</span> najnowszych
+                standardów gwarantuje czysty, <span>przejrzysty kod</span> oraz <span>poprawne działanie</span>
+                naszej strony internetowej.
+                <span>Ta strona powstała z użyciem HTML i CSS, JS jest jeszcze przede mną,</span> choć to sie szybko
+                zmieni :)</p>
+        </div>
+        <div class="feature">
+            <img src="images/browsers.png" alt="logo google">
+            <h2>Zoptymalizowane pod kątem przeglądarek</h2>
+            <p class="description">Aby strona wyświetlała się dobrze niezależnie od przeglądarki użytkownika trzeba
+                zwrócić uwagę, <span>czy przeglądarka wspiera daną właściwość</span> i w jakim stopniu. Jeśli nie
+                wspiera, można czasem <span>skorzystać z prefixów lub znaleźć na to inną metodę.</span> Mam
+                nadzieję, że wkrótce uda mi się znaleźć sposób aby efekt
+                <a href="#fixed">background-attachment: fixed</a> był widoczny także dla użytkowników Chrome na
+                Androida.</p>
+        </div>
+        <div class="feature">
+            <img src="images/services3.png" alt="3 rodzaje urządzeń">
+            <h2>Świetnie wyglądające na urządzeniach mobilnych</h2>
+            <p class="description"><span>Ok. 70% ruchu</span> w internecie przypada na
+                <span>urządzenia mobilne</span>, dlatego podejście do budowaniania stron i aplikacji zmieniło się z
+                desktop-first na <span>mobile-first</span>. Dla twórców bez nawyków nic trudnego. Aby
+                <span>strona</span> dobrze wyswietlała sie na różnych urządzeniach, czyli była
+                <span>responsywna</span>, trzeba nadać właściwościom jej elementów odpowiednie wartości, dostosowane
+                do różnych ekranów. Na tej stronie użyłam do tego celu <span>@media</span>, czyli media queries.</p>
+        </div>
+        <div class="nearfeature">
+            <h2>Plany na najbliższą przyszłość</h2>
+            <img src="images/GitHub-icon.png" alt="git">
+            <img src="images/javascript.jpg" alt="js">
+            <img src="images/jquery.png" alt="JQ">
+            <img src="images/React.png" alt="React">
+
+        </div>
+
+    </section>
+    <section class="portfolio" id="galery">
+        <h1>Projekt galerii</h1>
+        <div>
+            <p>Poniżej znajdują sie przykładowe strony, które chialabym zrobić, na razie są to tylko obrazki. W drugim
+                projekcie użyłam guzika "czytaj więcej", i już nie mogę sie doczekać, kiedy nabędę umiejętności aby nie
+                wydłużając kodu zastosować go na stronie kilka razy :)</p>
+        </div>
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/portfolio1.png" alt="Maroko">
+                <div class="go">
+                    <a href="#"><img src="images/GitHub-icon.png" alt="git"></a>
+                    <a href="#"><img src="images/google-icon.png" alt="google"></a>
+                </div>
+            </div>
+
+            <div class="about">
+                <h2>Direction: South</h2>
+                <p>Take a trip to the most beautiful places of the warm and sunny South. You can see pictures of cities,
+                    villages and uninhabited areas, full of sun, witch worth to see. On the picture - Chefchaouen,
+                    Maroko.
+                    <!--                <a class="page" href="#" target="_blank">Przejdź</a>-->
+                </p>
+
+                <button class="code"><a href="#" target="_blank">Zobacz kod - dostępne wkrótce</a></button>
+            </div>
+        </div>
+
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/portfolio2.png" alt="Tłum mural">
+                <div class="go">
+                    <a href="#"><img src="images/GitHub-icon.png" alt="git"></a>
+                    <a href="#"><img src="images/google-icon.png" alt="google"></a>
+                </div>
+            </div>
+
+            <div class="about">
+                <h2>Marketing internetowy</h2>
+                <p>W jaki sposób klienci dokonują zakupów? Co sprawia, że podejmują decyzję o zakupie? Dlaczego
+                    popularnosć witryny nie przekłada się na liczbę zamówień?
+                    <span id="dots">...</span><span id="more">Jak zwiększyć sprzedaż i zatrzymać przy sobie lojalnych klientów? Jak ulepszyć swój biznes? Jeszcze na początku lat 90. tłumy ludzi korzystały z usług dostępnych jedynie stacjonarnie. Dostawców było niewielu, rozwijający sie biznes spotykał się z wysokim popytem. Jednak szybko rosnąca konkurencja spowodowała, że aby odnieść sukces w biznesie, trzeba naprawdę się wyróżnić. Sprawdź, co możesz zrobić dla swojego biznesu.</span>
+                </p>
+
+                <button onclick="myFunction()" id="myBtn">Czytaj więcej</button>
+
+                <button class="code"><a href="#" target="_blank">Zobacz kod - dostępne wkrótce</a></button>
+
+                <script>
+                    function myFunction() {
+                        var dots = document.getElementById("dots");
+                        var moreText = document.getElementById("more");
+                        var btnText = document.getElementById("myBtn");
+
+                        if (dots.style.display === "none") {
+                            dots.style.display = "inline";
+                            btnText.innerHTML = "Czytaj więcej";
+                            moreText.style.display = "none";
+                        } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Czytaj mniej";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/portfolio3.png" alt="Papryczki chilli">
+                <div class="go">
+                    <a href="#"><img src="images/GitHub-icon.png" alt="git"></a>
+                    <a href="#"><img src="images/google-icon.png" alt="google"></a>
+                </div>
+            </div>
+
+            <div class="about">
+                <h2>Szczypta pikanterii</h2>
+                <p>Chyba wszyscy lubią lody. Aplikacji na liczenie kalorii już jednak trochę powstało, ja chciałabym
+                    napisać aplikację która pokazuje ile mleka trzeba wypić po zjedzeniu papryczki aby już nie piekła ;)
+                    <!-- <a class="page" href="#" target="_blank">Przejdź</a> -->
+                </p>
+
+                <button class="code"><a href="#" target="_blank">Zobacz kod - dostępne wkrótce</a></button>
+
+            </div>
+        </div>
+        <div class="project clearfix">
+            <div class="web">
+                <img src="images/portfolio4.png" alt="Pracownia artysty">
+                <div class="go">
+                    <a href="#"><img src="images/GitHub-icon.png" alt="git"></a>
+                    <a href="#"><img src="images/google-icon.png" alt="google"></a>
+                </div>
+            </div>
+
+            <div class="about">
+                <h2>Artis - Galeria sztuki</h2>
+                <p>Na facebooku mam małą stronę z pudełkami zdobionymi decoupage, docelowo jednak chciałabym stworzyć
+                    większą galerię na własnej stronie www. Będzie to taka przestrzeń dla sztuki :)
+                </p>
+
+                <button class="code"><a href="#" target="_blank">Zobacz kod - dostępne wkrótce</a></button>
+            </div>
+        </div>
+    </section>
+    <section class="slogan" id="motto">
+        <div class="bg" id="fixed">
+            <h1>Moje życiowe motto</h1>
+            <p class="text">Czasem najprostsze rozwiązania są najlepsze. Czym jednak byłoby życie bez kombinowania?</p>
+            <p class="author"></p>
+        </div>
+    </section>
+    <section class="hobby clearfix" id="freeTime">
+        <h1>W wolnym czasie uwielbiam</h1>
+        <div class="item">
+            <p>Malować</p>
+        </div>
+        <div class="item">
+            <p>Fotografować</p>
+        </div>
+        <div class="item">
+            <p>Tworzyć</p>
+        </div>
+        <div class="item">
+            <p>Dobrze zjeść<img class="happy" src="images/happy_ico.PNG" alt="emot"></p>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1>Skontaktuj sie ze mną</h1>
+        <div class="wrap clearfix">
+            <form>
+                <input type="text" placeholder="Twoje imię">
+                <input type="text" placeholder="Email">
+                <textarea placeholder="Wysłanie wiadomości chwilowo niedostepne"></textarea>
+                <button>Wyślij wiadomość</button>
+            </form>
+
+            <div class="socials">
+                <img src="images/GitHub-icon.png" alt="git">
+                <a href="https://www.facebook.com/ArtisGaleria.GA/" target="_blanc"> <img src="images/contact3.png" alt="fb"></a>
+                <a href="https://www.linkedin.com/in/izabela-sosnowska-b980b1131/" target="_blanc"> <img src="images/contact5.png" alt="in"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Izabela Sosnowska</p>
+    </footer>
+</body>
+
+</html>
