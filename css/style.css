@@ -343,10 +343,13 @@ nav.top a {
     max-width: 100px;
 }
 
-.feature p>a {
-    text-decoration: underline;
-    color: black;
-    font-weight: 700;
+.feature p>a,
+.project p>a {
+    color: inherit;
+    font-weight: 600;
+    background-color: rgba(65, 56, 56, 0.116);
+    padding: 0 .25em;
+    border-radius: 5%;
 }
 
 @media (min-width: 360px) {
