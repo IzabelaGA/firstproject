@@ -180,14 +180,14 @@ nav.top a {
 
 @media(orientation: landscape) {
     header div.welcome {
-        top: 15%;
+        top: 0%;
         left: 7%;
-        right: 48%;
+        right: 38%;
         text-align: left;
     }
 
     header button {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }
 
