@@ -775,7 +775,6 @@ nav.top a {
 .hobby .item {
     height: 40vh;
     background-position: center;
-    /*    background-attachment: fixed;*/
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -801,7 +800,6 @@ nav.top a {
     font-family: 'Saira', sans-serif;
     color: white;
     text-align: center;
-    /*    line-height: 25vh;*/
     text-shadow: 0 0 4px black;
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
