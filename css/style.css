@@ -349,10 +349,15 @@ nav.top a {
 .feature p>a,
 .project p>a {
     color: inherit;
-    font-weight: 600;
-    background-color: rgba(65, 56, 56, 0.116);
+    background-color: rgba(56, 56, 56, 0.120);
     padding: 0 .25em;
-    border-radius: 5%;
+    border-bottom: 0.1em solid rgb(78, 115, 129);
+}
+
+.feature p>a:hover,
+.project p>a:hover {
+    background-color: rgba(65, 65, 65, 0.240);
+    border-bottom: 0.15em solid rgb(19, 113, 134);
 }
 
 @media (min-width: 360px) {
