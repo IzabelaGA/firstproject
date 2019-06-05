@@ -103,9 +103,8 @@ button>a {
 }
 
 nav.top {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    width: 100%;
     z-index: 1;
 }
 
@@ -277,7 +276,8 @@ nav.top a {
     section button,
     section button>a,
     .portfolio a.page,
-    nav.top a {
+    nav.top a,
+    header button>a {
         cursor: pointer;
         transition: .4s;
     }
