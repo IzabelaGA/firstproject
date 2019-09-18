@@ -45,10 +45,10 @@ mail($to, $subject, $message, $headers);
             <div class="welcome">
 
             <?php
-$to = 'izabela.sosnowska23@gmail.com';
+$to = 'is.contact@izabelasosnowska.pl';
 $name = $_POST['name'];
 $email = $_POST['email'];
-$subject= 'Nowy mail od ' . $name . ' (' . $email .')';
+$subject= 'Pytanie przez formularz kontaktowy od ' . $name . ' (' . $email .')';
 $message = $_POST['message'];
 // $headers = 'From: ' . $name'' . ' (' . $email .')';
 $headers = 'From: ' . $_POST['email'] . "\r\n" .
