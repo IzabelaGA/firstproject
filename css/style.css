@@ -485,9 +485,11 @@ nav.top a {
 .portfolio h1 {
     padding: 20px;
 }
-.portfolio h1 + div p {
+
+.portfolio h1+div p {
     text-align: center;
 }
+
 /*.about*/
 .portfolio h2,
 .portfolio p {
@@ -685,7 +687,6 @@ nav.top a {
 
     .portfolio p {
         line-height: 180%;
-        padding: 0 4rem;
     }
 }
 
@@ -923,8 +924,8 @@ img.emoji {
 }
 
 
-.contact .socials img{
-/* .contact .socials img.web */
+.contact .socials img {
+    /* .contact .socials img.web */
     display: inline-block;
     width: 36px;
     margin: 0 25px;
