@@ -552,7 +552,7 @@ nav.top a {
 .portfolio .go a {
     position: absolute;
     width: 30px;
-    top: 15px;
+    top: 40px;
     left: 20px;
     margin-right: 20px;
 }
@@ -606,7 +606,7 @@ nav.top a {
     .portfolio .go a {
 
         width: 40px;
-        top: 20px;
+        top: 40px;
         left: 25px;
     }
 
@@ -653,13 +653,14 @@ nav.top a {
     .portfolio .go a {
 
         width: 40px;
-        top: 20px;
+        top: 40px;
         left: 30px;
     }
 
     .portfolio .go a:nth-of-type(odd) {
         left: 100px;
     }
+
 }
 
 @media (min-width: 1024px) {
